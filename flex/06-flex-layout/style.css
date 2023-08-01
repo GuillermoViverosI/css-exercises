@@ -5,6 +5,47 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  background-color: rgba(195, 195, 195,0.3);
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  margin: 10px;
+  padding: 0;
+  list-style: none;
+  align-items: center;
+}
+
+ul a {
+  color: gray;
+  text-decoration: none;
+  margin: 10px;
 }
 
 img {
@@ -12,10 +53,15 @@ img {
 }
 
 button {
+  display: flex;
+  align-items: center;
   font-family: Roboto, sans-serif;
   border: none;
+  height: 25px;
+  padding: 10px;
   border-radius: 8px;
   background: #eee;
+  margin-right: 5px;
 }
 
 input {
